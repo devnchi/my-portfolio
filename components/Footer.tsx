@@ -4,7 +4,7 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <div className='p-3 m-5 mt-8 mb-8'>
+    <div className='p-3 m-5 mt-8 mb-8 font-spaceMono'>
         <div className='flex flex-col items-center justify-center p-2'>
             <h2 className="text-5xl">Let's talk.</h2>
         </div>

@@ -3,21 +3,22 @@ import Typewriter from 'typewriter-effect';
 
 type Props = {}
 
-function Header({}: Props) {
+function Hero({}: Props) {
   const [staticText] = useState({
       titleOne: 'Hello',
-      titleTwo: "I'm Chi Igbokwe",
+      titleTwo: "My name is Chi Igbokwe.",
   })
 
   return (
-    <div className='flex flex-row items-center justify-around max-w-8xl mx-auto'>
-        <div>
-            <h2>
+    <div className='flex items-center justify-evenly max-w-8xl min-h-screen mx-auto'>
+        <div className='font-spaceMono'>
+            <h2 className='text-5xl'>
                 <div>{staticText.titleOne},</div>
                 <div>{staticText.titleTwo}</div>
             </h2>
         </div>
-        <div>
+        <div className='text-5xl font-comforterBrush'>
+            <h3>I'm a... </h3>
             <Typewriter
                 options={{
                     autoStart: true,
@@ -25,10 +26,9 @@ function Header({}: Props) {
                     delay: 40,
                     strings: [
                         'Software Engineer',
-                        'UI/UX Designer',
+                        'Designer',
                         'Marketing Specialist',
                         'Content Creator',
-                        'Mentor',
                         'Tech Enthusiast'
                     ]
                 }}
@@ -38,4 +38,4 @@ function Header({}: Props) {
   )
 }
 
-export default Header
+export default Hero
