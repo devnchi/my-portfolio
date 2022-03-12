@@ -10,9 +10,9 @@ function Hero({}: Props) {
   })
 
   return (
-    <div className='flex items-center justify-evenly max-w-8xl min-h-screen mx-auto'>
-        <div className='font-spaceMono'>
-            <h2 className='text-5xl'>
+    <div className='container items-center text-center justify-center min-h-screen p-20 mt-10 lg:flex lg:text-justify lg:justify-evenly lg:max-w-8xl lg:mx-auto lg:mt-0'>
+        <div className='font-spaceMono mb-20 lg:mb-0'>
+            <h2 className='text-5xl lg:text-4xl xl:text-5xl'>
                 <div>{staticText.titleOne},</div>
                 <div>{staticText.titleTwo}</div>
             </h2>

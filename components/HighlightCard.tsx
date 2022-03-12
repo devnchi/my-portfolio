@@ -9,7 +9,7 @@ type Props = {
 
 function HighlightCard({ img, title, description, buttonText }: Props) {
   return (
-    <div className='flex flex-col py-16 cursor-pointer mx-auto max-w-7xl'>
+    <div className='flex flex-col relative py-16 cursor-pointer mx-auto max-w-7xl p-5'>
         <div className='relative h-96 min-w-[300px]'>
             <Image
                 className='rounded-2xl'

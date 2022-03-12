@@ -20,26 +20,15 @@ function Contact({}: Props) {
         pageTitle='Contact Chi'
       />
       <div className='bg-black min-h-screen'>
-        <div className='mx-auto max-w-7xl text-white text-5xl font-spaceMono font-bold py-20'>
+        <div className='mx-auto max-w-7xl text-white text-5xl font-spaceMono font-bold py-20 mb-5'>
           <Typewriter
-                options={{
-                    autoStart: true,
-                    loop: true,
-                    delay: 40,
-                    strings: [
-                        'Do you want to work with me?'
-                    ]
-                }}
-            />
-          <Typewriter
-                options={{
-                    autoStart: true,
-                    loop: true,
-                    delay: 40,
-                    strings: [
-                        'You can get in contact with me now...'
-                    ]
-                }}
+            onInit={(typewriter)=> {       
+              typewriter          
+                .typeString('Want to work with me? ')          
+                .pauseFor(1000)
+                .typeString(' Get in contact with me now...')
+                .start();
+              }}
             />
         </div>
       </div>
