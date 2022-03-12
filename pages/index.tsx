@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         buttonText='See Full Project'
       />
       <div className='flex items-center justify-center'>
-        <a href='/work'><button className='rounded-xl text-4xl bg-gray-900 text-white font-comforterBrush flex items-center justify-center p-8 m-10 hover:bg-gray-400 cursor-pointer'>See More Work</button></a>
+        <a href='/work'><button className='rounded-xl text-4xl bg-black text-white font-comforterBrush flex items-center justify-center p-8 m-10 hover:bg-gray-400 cursor-pointer'>See More Work</button></a>
       </div>
       <Footer />
     </div>

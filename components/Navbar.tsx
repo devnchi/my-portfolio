@@ -16,10 +16,10 @@ function Navbar({}: Props) {
             </Link>
         </div>
         <div className='flex font-spaceMono items-center space-x-5 text-black'>
-            <a href='/about'><h3>About</h3></a>
-            <a href='/work'><h3>Work</h3></a>
-            <a href='/contact'><h3>Contact</h3></a>
-            <a href='https://google.com' target='_blank'><h3>Blog</h3></a>
+            <a href='/about'><h3 className='hover:scale-105 hover:underline'>About</h3></a>
+            <a href='/work'><h3 className='hover:scale-105 hover:underline'>Work</h3></a>
+            <a href='/contact'><h3 className='hover:scale-105 hover:underline'>Contact</h3></a>
+            <a href='https://google.com' target='_blank'><h3 className='hover:scale-105 hover:underline'>Blog</h3></a>
         </div>
     </nav>
   )
