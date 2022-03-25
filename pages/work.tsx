@@ -18,53 +18,55 @@ function Work({}: Props) {
       <Navbar />
       <PageHeader
         pageTitle='Work'
+        projectDescription=''
+        projectTech=''
       />
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 p-6 bg-black text-white py-20'>
-        <WorkCard
+        <a href='/projects/opensea'><WorkCard
           img='/chi_igbokwe_logo.png'
-          title='Spotify Remote'
-          description='A Spotify remote design and implementaion built with the Spotify API'
-        />
-        <WorkCard
+          title='Opensea Clone'
+          description='A full stack iteration of Opensea with real Bored Ape Yatch Club NFTs using Web3.0'
+        /></a>
+        <a href="/projects/cryptoWallet"><WorkCard
           img='/chi_igbokwe_logo.png'
-          title='Hulu Redesign'
-          description='A redesign and front end implementation of Hulu'
-        />
-        <WorkCard
+          title='Decent Demo'
+          description='A demo of a personal project I am currently building for a cryptocurrency wallet and trading application using Web 3.0'
+        /></a>
+        <a href="/projects/createdByChi"><WorkCard
           img='/chi_igbokwe_logo.png'
-          title='Airbnb Redesign'
-          description="A redesign and front end implementation of Airbnb"
-        />
-        <WorkCard
+          title="Created By Chi"
+          description='A personal project I am building to blog and share creative tech ideas and resources for the public'
+        /></a>
+        <a href="/projects/airbnb"><WorkCard
           img='/chi_igbokwe_logo.png'
-          title="Queen's Qloset"
-          description='A personal project I am building for an e-commerce consignment store'
-        />
-        <WorkCard
+          title='Airbnb Clone'
+          description="A redesign and front end iteration of Airbnb"
+        /></a>
+        <a href="/projects/nftCollection"><WorkCard
+          img='/chi_igbokwe_logo.png'
+          title='NFT Collection'
+          description='A full stack iteration and design for an NFT collection project using Web3.0'
+        /></a>
+        <a href="/projects/hulu"><WorkCard
+          img='/chi_igbokwe_logo.png'
+          title='Hulu Clone'
+          description='A redesign and front end iteration of Hulu'
+        /></a>
+        <a href="/projects/qruznDemo"><WorkCard
+          img='/chi_igbokwe_logo.png'
+          title='Qruzn Demo'
+          description='A demo of a personal project I am currently building for a car rental service application'
+        /></a>
+        <a href="/projects/whatsapp"><WorkCard
           img='/chi_igbokwe_logo.png'
           title='WhatsApp Clone'
           description='A front end re-implemetation of WhatsApp'
-        />
-        <WorkCard
+        /></a>
+        <a href="/projects/youtopia"><WorkCard
           img='/chi_igbokwe_logo.png'
-          title='Facebook Clone'
-          description="A front end re-implementation of Facebook's web application"
-        />
-        <WorkCard
-          img='/chi_igbokwe_logo.png'
-          title='Uber Clone'
-          description="A re-implementation of Uber's mobile application"
-        />
-        <WorkCard
-          img='/chi_igbokwe_logo.png'
-          title='Qruzn'
-          description='A personal project I am building for a car rental service application'
-        />
-        <WorkCard
-          img='/chi_igbokwe_logo.png'
-          title='Cannabis Finder'
-          description='A UI/UX design of a cannabis finder website'
-        />
+          title='YouTopia Demo'
+          description='A personal project I built for a full stack iteration of a very unique social media experience'
+        /></a>
       </div>
       <Footer />
     </div>

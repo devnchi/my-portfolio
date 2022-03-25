@@ -1,15 +1,26 @@
 import React from 'react'
 
 type Props = {
-    pageTitle: string
+    pageTitle: string,
+    projectDescription: string,
+    projectTech: string,
 }
 
-function PageHeader({pageTitle}: Props) {
+function PageHeader({pageTitle, projectDescription, projectTech}: Props) {
   return (
-    <div className='flex items-center justify-center font-comforterBrush p-40 my-20'>
+    <div className='items-center justify-center p-40 my-20'>
         <div>
-            <h3 className='text-9xl text-center'>{pageTitle}</h3>
+            <h3 className='text-9xl text-center font-comforterBrush'>{pageTitle}</h3>
         </div>
+        <div className='pt-4 p-4'>
+          <div>
+            <p className='text-xl font-spaceMono text-center'>{projectDescription}</p>
+          </div>
+          <div className='pt-4 text-center justify-center'>
+            <span className='text-3xl font-comforterBrush font-bold text-purple-600'>{projectTech}</span>
+          </div>
+        </div>
+
     </div>
   )
 }

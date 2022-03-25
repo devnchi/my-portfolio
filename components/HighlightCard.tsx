@@ -22,7 +22,7 @@ function HighlightCard({ img, title, description, buttonText }: Props) {
             <h3 className='text-4xl mb-3'>{title}</h3>
             <p>{description}</p>
 
-            <button className='text-lg text-white bg-black px-4 py-2 rounded-lg mt-5 font-comforterBrush hover:bg-gray-400'>
+            <button className='text-lg text-white bg-black px-4 py-2 rounded-lg mt-5 font-comforterBrush hover:bg-purple-400'>
                 {buttonText}
             </button>
         </div>

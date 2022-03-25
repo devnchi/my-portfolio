@@ -8,7 +8,7 @@ type Props = {
 
 function WordCard({ img, title, description }: Props) {
   return (
-    <div className='cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-5 font-spaceMono'>
+    <div className='cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-5 font-spaceMono hover:bg-purple-400 hover:rounded-xl'>
         <div className='relative h-80 w-80'>
             <Image
                 className='rounded-xl'

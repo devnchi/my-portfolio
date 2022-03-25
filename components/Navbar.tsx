@@ -1,17 +1,21 @@
 import React from 'react'
 import  Link from 'next/link';
+import { slide as Menu } from "react-burger-menu";
+import { useMediaQuery } from "react-responsive";
+import { SCREENS } from "../responsive";
+
 
 type Props = {}
 
 function Navbar({}: Props) {
-  return (
+    return (
     <nav className='sticky flex justify-between p-5 max-w-7xl mx-auto'>
         <div className='flex items-center space-x-5'>
             <Link href='/'>
              <img 
              className='w-56 object-contain cursor-pointer' 
              src='/chi_igbokwe_logo_01.png'
-             alt="The official logo for Chi Igbokwe's professional portfolio"
+             alt="Chi Igbokwe's professional portfolio"
              />
             </Link>
         </div>
