@@ -17,22 +17,25 @@ const Home: NextPage = () => {
       <Navbar />
       <Hero />
       <HighlightCard
-        img='/chi_igbokwe_logo.png'
+        img='/os00.png'
         title='Opensea Clone'
         description='Wishlists curated by Airbnb'
         buttonText='See Full Project'
+        buttonLink='/projects/opensea'
       />
       <HighlightCard
         img='/chi_igbokwe_logo.png'
         title='Decent Demo'
         description='Wishlists curated by Airbnb'
         buttonText='See Full Project'
+        buttonLink=''
       />
       <HighlightCard
-        img='/chi_igbokwe_logo.png'
+        img='/yt02.png'
         title="YouTopia"
         description='Wishlists curated by Airbnb'
         buttonText='See Full Project'
+        buttonLink='/projects/youtopia'
       />
       <div className='flex items-center justify-center'>
         <a href='/work'><button className='rounded-xl text-4xl bg-black text-white font-comforterBrush flex items-center justify-center p-8 m-10 hover:bg-purple-400 cursor-pointer'>See More Work</button></a>

@@ -23,7 +23,7 @@ function Work({}: Props) {
       />
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 p-6 bg-black text-white py-20'>
         <a href='/projects/opensea'><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/os01.png'
           title='Opensea Clone'
           description='A full stack iteration of Opensea with real Bored Ape Yatch Club NFTs using Web3.0'
         /></a>
@@ -33,37 +33,32 @@ function Work({}: Props) {
           description='A demo of a personal project I am currently building for a cryptocurrency wallet and trading application using Web 3.0'
         /></a>
         <a href="/projects/createdByChi"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/cxc00.png'
           title="Created By Chi"
           description='A personal project I am building to blog and share creative tech ideas and resources for the public'
         /></a>
         <a href="/projects/airbnb"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/bnb00.png'
           title='Airbnb Clone'
           description="A redesign and front end iteration of Airbnb"
         /></a>
         <a href="/projects/nftCollection"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/nft00.png'
           title='NFT Collection'
           description='A full stack iteration and design for an NFT collection project using Web3.0'
         /></a>
         <a href="/projects/hulu"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/hulu00.png'
           title='Hulu Clone'
           description='A redesign and front end iteration of Hulu'
         /></a>
         <a href="/projects/qruznDemo"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/qruzn00.png'
           title='Qruzn Demo'
           description='A demo of a personal project I am currently building for a car rental service application'
         /></a>
-        <a href="/projects/whatsapp"><WorkCard
-          img='/chi_igbokwe_logo.png'
-          title='WhatsApp Clone'
-          description='A front end re-implemetation of WhatsApp'
-        /></a>
         <a href="/projects/youtopia"><WorkCard
-          img='/chi_igbokwe_logo.png'
+          img='/yt00.png'
           title='YouTopia Demo'
           description='A personal project I built for a full stack iteration of a very unique social media experience'
         /></a>

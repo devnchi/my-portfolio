@@ -1,8 +1,7 @@
 import React from 'react'
 import  Link from 'next/link';
 import { slide as Menu } from "react-burger-menu";
-import { useMediaQuery } from "react-responsive";
-import { SCREENS } from "../responsive";
+import screens from '../tailwind.config'
 
 
 type Props = {}

@@ -16,18 +16,24 @@ function Airbnb({}: Props) {
             projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
             projectTech='Built with: Next.js, TailwindCSS'
         />
-        <div className='bg-black'>
+        <div className='bg-black mt-12 pt-12'>
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/bnb00.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/bnb01.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
-            />       
+                img='/bnb02.png'
+            /> 
+            <ProjectImage
+                img='/bnb03.png'
+            />           
         </div>
-        <ProjectButtons />
+        <ProjectButtons
+            siteLink='https://airbnb-clone-devnchi.vercel.app/'
+            gitLink='https://github.com/devnchi/airbnb-2.0'
+        />
         <Footer />
     </div>
   )

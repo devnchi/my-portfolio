@@ -6,13 +6,13 @@ type Props = {
 
 function ProjectImage({ img }: Props) {
   return (
-    <div className='flex flex-col relative py-16 cursor-pointer mx-auto max-w-7xl p-5'>
-        <div className='relative h-96 min-w-[300px]'>
+    <div className='relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]'>
+        <div className='m-28 p-28'>
             <Image
-                className='rounded-2xl'
+                className=''
                 src={img}
                 layout='fill'
-                objectFit='cover'
+                objectFit='contain'
             />
         </div>
     </div>

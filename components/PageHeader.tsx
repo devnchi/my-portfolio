@@ -8,9 +8,9 @@ type Props = {
 
 function PageHeader({pageTitle, projectDescription, projectTech}: Props) {
   return (
-    <div className='items-center justify-center p-40 my-20'>
+    <div className='items-center justify-center p-40 my-20 text-center mx-auto'>
         <div>
-            <h3 className='text-9xl text-center font-comforterBrush'>{pageTitle}</h3>
+            <h3 className='text-9xl font-comforterBrush'>{pageTitle}</h3>
         </div>
         <div className='pt-4 p-4'>
           <div>

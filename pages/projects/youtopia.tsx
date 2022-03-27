@@ -16,18 +16,21 @@ function YouTopia({}: Props) {
             projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
             projectTech='Built with: Next.js, TailwindCSS'
         />
-        <div className='bg-black'>
+        <div className='bg-black mt-12 pt-12'>
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/yt01.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/yt04.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/yt07.png'
             />       
         </div>
-        <ProjectButtons />
+        <ProjectButtons
+            siteLink='https://youtopia-mvp.herokuapp.com/'
+            gitLink='https://github.com/devnchi/youTopiaDemo'
+        />
         <Footer />
     </div>
   )

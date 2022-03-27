@@ -12,22 +12,25 @@ function hulu({}: Props) {
     <div>
         <Navbar />
         <PageHeader
-            pageTitle='Airbnb Clone'
-            projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
+            pageTitle='Hulu Clone'
+            projectDescription='This Hulu iteration was built with a focus on front end functionality. Hulu finally redesigned their UI and I wanted to mimic the new design implementation but with a personal touch. By pulling data directly from the imdb database, you are able to dynamically query each category shown in the navigation bar. You can click on each category and see what the categories have to offer in real-time.'
             projectTech='Built with: Next.js, TailwindCSS'
         />
-        <div className='bg-black'>
+        <div className='bg-black mt-12 pt-12'>
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/hulu00.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/hulu01.png'
             />
             <ProjectImage
-                img='/chi_igbokwe_logo.png'
+                img='/hulu02.png'
             />       
         </div>
-        <ProjectButtons />
+        <ProjectButtons
+            siteLink='https://hulu-clone-devnchi.vercel.app/'
+            gitLink='https://github.com/devnchi/hulu-2.0'
+        />
         <Footer />
     </div>
   )
