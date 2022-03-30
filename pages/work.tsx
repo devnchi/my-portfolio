@@ -49,7 +49,7 @@ function Work({}: Props) {
         /></a>
         <a href="/projects/youtopia"><WorkCard
           img='/yt02.png'
-          title='YouTopia Demo'
+          title='YouTopia'
           description='A personal project I built for a full stack iteration of a very unique social media experience'
         /></a>
       </div>
