@@ -14,7 +14,7 @@ function qruznDemo({}: Props) {
         <Navbar />
         <PageHeader
             pageTitle='Qruzn Demo'
-            projectDescription='I initially designed and implemented this rental service application just for fun. Now, I am currently building and scaling it out now in Next.js as a full service car rental application that will be used by a client. Here is the front end demo in React of the brand and service that I am currently building.'
+            projectDescription='Initially, I designed and implemented this rental service application just for fun. Now, I am currently building and scaling it out now in Next.js as a full service car rental application that will be used by a client. Here is the front end demo in React of the brand and service that I am currently building.'
             projectTech='Built with: React.js, Typescript, React Redux, TailwindCSS, Styled Components, MongoDB, AdobeXD, Illustrator'
         />
         <div className='bg-black mt-12 pt-12'>
