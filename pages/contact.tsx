@@ -22,7 +22,7 @@ function Contact({}: Props) {
         projectTech=''
       />
       <div className='bg-black min-h-screen relative lg:flex'>
-        <div className='mx-auto max-w-7xl text-white text-4xl font-spaceMono font-bold py-16 mb-5 w-1/2 p-2 h-1/2 lg:mt-72 lg:p-20 lg:text-5xl'>
+        <div className='mx-auto max-w-7xl text-white text-4xl font-spaceMono font-bold py-16 mb-5 w-1/2 p-2 h-1/2 lg:mt-72 lg:p-20 lg:text-5xl min-h-max'>
           <Typewriter
             onInit={(typewriter)=> {       
               typewriter          
