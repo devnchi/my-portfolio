@@ -14,7 +14,7 @@ function YouTopia({}: Props) {
         <PageHeader
             pageTitle='Airbnb Clone'
             projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
-            projectTech='Built with: Next.js, TailwindCSS'
+            projectTech='Built with: Javascript, MongoDB, Express, REST APIs, Passport.js, Illustrator'
         />
         <div className='bg-black mt-12 pt-12'>
             <ProjectImage

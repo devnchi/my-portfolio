@@ -12,9 +12,9 @@ function createdByChi({}: Props) {
     <div>
         <Navbar />
         <PageHeader
-            pageTitle='Airbnb Clone'
-            projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
-            projectTech='Built with: Next.js, TailwindCSS'
+            pageTitle='Created By Chi'
+            projectDescription='I started an online platform called "Created By Chi" to act as a space where I can share created content and resources for aspiring developers and designers. Its primarlity a blog for some of my ideas on current tech and other forms of creative media but I am also expanding it to provide courses and tutorials.'
+            projectTech='Built with: Next.js, Typescript, TailwindCSS, Sanity.io, Illustrator, Figma'
         />
         <div className='bg-black mt-12 pt-12'>
             <ProjectImage
@@ -22,8 +22,8 @@ function createdByChi({}: Props) {
             />      
         </div>
         <ProjectButtons
-            siteLink='airbnb-clone-devnchi.vercel.app'
-            gitLink='https://github.com/devnchi/airbnb-2.0'
+            siteLink='https://www.createdbychi.com/'
+            gitLink='https://github.com/devnchi/created-by-chi'
          />
         <Footer />
     </div>

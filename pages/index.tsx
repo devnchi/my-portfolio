@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className='sticky'>
       <Head>
-        <title>Chi Igbokwe</title>
+        <title>Chi Igbokwe - Official Portfolio</title>
         <link rel="icon" href="/chi_igbokwe_logo.png" />
       </Head>
 
