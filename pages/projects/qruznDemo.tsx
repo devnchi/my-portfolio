@@ -26,8 +26,8 @@ function qruznDemo({}: Props) {
             />     
         </div>
         <ProjectButtons
-            siteLink=''
-            gitLink=''
+            siteLink='https://qruzn-demo-devnchi.vercel.app/'
+            gitLink='https://github.com/devnchi/qruzn-v1'
         />
         <Footer />
     </div>

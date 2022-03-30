@@ -14,7 +14,7 @@ function PageHeader({pageTitle, projectDescription, projectTech}: Props) {
         </div>
         <div className='pt-4 p-4'>
           <div>
-            <p className='text-xl font-spaceMono text-center'>{projectDescription}</p>
+            <p className='text-xl font-spaceMono text-center p-2'>{projectDescription}</p>
           </div>
           <div className='pt-4 text-center justify-center'>
             <span className='text-3xl font-comforterBrush font-bold text-purple-600'>{projectTech}</span>
