@@ -27,11 +27,6 @@ function Work({}: Props) {
           title='Opensea Clone'
           description='A full stack iteration of Opensea with real Bored Ape Yatch Club NFTs using Web3.0'
         /></a>
-        <a href="/projects/cryptoWallet"><WorkCard
-          img='/chi_igbokwe_logo.png'
-          title='Decent Demo'
-          description='A demo of a personal project I am currently building for a cryptocurrency wallet and trading application using Web 3.0'
-        /></a>
         <a href="/projects/createdByChi"><WorkCard
           img='/cxc00.png'
           title="Created By Chi"
@@ -41,11 +36,6 @@ function Work({}: Props) {
           img='/bnb00.png'
           title='Airbnb Clone'
           description="A redesign and front end iteration of Airbnb"
-        /></a>
-        <a href="/projects/nftCollection"><WorkCard
-          img='/nft00.png'
-          title='NFT Collection'
-          description='A full stack iteration and design for an NFT collection project using Web3.0'
         /></a>
         <a href="/projects/hulu"><WorkCard
           img='/hulu00.png'
@@ -58,7 +48,7 @@ function Work({}: Props) {
           description='A demo of a personal project I am currently building for a car rental service application'
         /></a>
         <a href="/projects/youtopia"><WorkCard
-          img='/yt00.png'
+          img='/yt02.png'
           title='YouTopia Demo'
           description='A personal project I built for a full stack iteration of a very unique social media experience'
         /></a>

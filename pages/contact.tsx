@@ -21,8 +21,8 @@ function Contact({}: Props) {
         projectDescription=''
         projectTech=''
       />
-      <div className='bg-black min-h-screen relative'>
-        <div className='mx-auto max-w-7xl text-white text-5xl font-spaceMono font-bold py-20 mb-5'>
+      <div className='bg-black min-h-screen relative lg:flex'>
+        <div className='mx-auto max-w-7xl text-white text-4xl font-spaceMono font-bold py-16 mb-5 w-1/2 p-2 h-1/2 lg:mt-72 lg:p-20 lg:text-5xl'>
           <Typewriter
             onInit={(typewriter)=> {       
               typewriter          
@@ -33,7 +33,7 @@ function Contact({}: Props) {
               }}
             />
         </div>
-        <div className='font-comforterBrush relative block container items-center text-center justify-center lg:flex lg:text-justify lg:justify-evenly lg:max-w-8xl lg:mx-auto lg:mt-0'>
+        <div className='p-6 align-center font-comforterBrush relative block container items-center text-center justify-center lg:flex lg:text-justify lg:justify-evenly lg:max-w-8xl md:mx-auto lg:mt-0 lg:w-1/2'>
           <form name='contact' method='POST' data-netlify='true' className='text-center border-2 p-5 items-center justify-center mx-auto'>
             <input type='hidden' name='for-name' value='contact'/>
             <p className='p-2'>

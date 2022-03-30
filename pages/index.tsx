@@ -19,26 +19,26 @@ const Home: NextPage = () => {
       <HighlightCard
         img='/os00.png'
         title='Opensea Clone'
-        description='Wishlists curated by Airbnb'
+        description='A full stack reiteration of Opensea with built with Web 3.0 functionality'
         buttonText='See Full Project'
         buttonLink='/projects/opensea'
       />
       <HighlightCard
-        img='/chi_igbokwe_logo.png'
-        title='Decent Demo'
-        description='Wishlists curated by Airbnb'
+        img='/bnb00.png'
+        title='Airbnb Clone'
+        description='A front end reiteration of Airbnb built with Next.js and Typescript'
         buttonText='See Full Project'
-        buttonLink=''
+        buttonLink='/projects/airbnb'
       />
       <HighlightCard
         img='/yt02.png'
         title="YouTopia"
-        description='Wishlists curated by Airbnb'
+        description='A full stack iteration of my unique and original social media applicationn built with basic Javascript'
         buttonText='See Full Project'
         buttonLink='/projects/youtopia'
       />
       <div className='flex items-center justify-center'>
-        <a href='/work'><button className='rounded-xl text-4xl bg-black text-white font-comforterBrush flex items-center justify-center p-8 m-10 hover:bg-purple-400 cursor-pointer'>See More Work</button></a>
+        <a href='/work'><button className='rounded-xl p-4 mt-5 text-4xl bg-black text-white font-comforterBrush flex items-center justify-center md:p-6 md:m-10 hover:bg-purple-400 cursor-pointer'>See More Work</button></a>
       </div>
       <Footer />
     </div>
