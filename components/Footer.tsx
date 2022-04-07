@@ -14,7 +14,7 @@ function Footer({}: Props) {
             <a href="" target='_blank'><span className="hover:text-purple-600 hover:animate-pulse">Dribble</span></a>
             <a href="https://github.com/devnchi" target='_blank'><span className="hover:text-purple-600 hover:animate-pulse">Github</span></a>
             <a href="mailto:chiigbokwedev@gmail.com" target='_blank'><span className="hover:text-purple-600 hover:animate-pulse">Email</span></a>
-            <a href="https://www.dropbox.com/t/h4ggAl7f8LMsZUIm" target='_blank'><span className="hover:text-purple-600 hover:animate-pulse">Resume</span></a>
+            <a href="https://www.dropbox.com/s/yj8lcefduddzjgh/Chi%20Igbokwe%20CV.pdf?dl=0" target='_blank'><span className="hover:text-purple-600 hover:animate-pulse">Resume</span></a>
         </div>
     </div>
   )
