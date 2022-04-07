@@ -13,7 +13,7 @@ function Airbnb({}: Props) {
         <Navbar />
         <PageHeader
             pageTitle='Airbnb Clone'
-            projectDescription='This Airbnb iteration was built with a focus on front end functionality. You are able to dynamically search for bookings by date and location. The data that is rendered for each search is a result of hard coded data'
+            projectDescription='This Airbnb iteration was built with a focus on front-end look and functionality. In this build, you can dynamically search for bookings by date and location. The data that is being rendered for each search is a result of hard-coded data.'
             projectTech='Built with: Next.js, Typescript, TailwindCSS, Figma'
         />
         <div className='bg-black mt-12 pt-12'>
